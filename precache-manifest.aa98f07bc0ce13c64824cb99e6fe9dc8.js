@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "909013dacc5a7b71c44e5bcde33f27e4",
+    "revision": "3210876e6c69ad6ce8da8f32f5343608",
     "url": "/beer-coins-challenge/index.html"
   },
   {
-    "revision": "e88f5d41b4cbf6d08b7a",
+    "revision": "398a75dc163f6e4c8da2",
     "url": "/beer-coins-challenge/static/css/2.9db35e51.chunk.css"
   },
   {
-    "revision": "9ddae375e115b12b322d",
-    "url": "/beer-coins-challenge/static/css/main.7cf6df80.chunk.css"
+    "revision": "fda5821b4770e1569fe3",
+    "url": "/beer-coins-challenge/static/css/main.6bafb512.chunk.css"
   },
   {
-    "revision": "e88f5d41b4cbf6d08b7a",
-    "url": "/beer-coins-challenge/static/js/2.b9d3bb79.chunk.js"
+    "revision": "398a75dc163f6e4c8da2",
+    "url": "/beer-coins-challenge/static/js/2.48a739eb.chunk.js"
   },
   {
     "revision": "08f88c415865709a5c804f3e744b1d9d",
-    "url": "/beer-coins-challenge/static/js/2.b9d3bb79.chunk.js.LICENSE.txt"
+    "url": "/beer-coins-challenge/static/js/2.48a739eb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9ddae375e115b12b322d",
-    "url": "/beer-coins-challenge/static/js/main.9cf6c121.chunk.js"
+    "revision": "fda5821b4770e1569fe3",
+    "url": "/beer-coins-challenge/static/js/main.8a46a858.chunk.js"
   },
   {
     "revision": "e6a80715d1749e575eae",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/beer-coins-challenge/static/media/empty.7a809f5c.svg"
   },
   {
-    "revision": "b0c2dbc8ea3be5db2d30838d51ff75ca",
-    "url": "/beer-coins-challenge/static/media/logo.b0c2dbc8.svg"
+    "revision": "6bee5dbf0b474dc155f403d8d5deb2d2",
+    "url": "/beer-coins-challenge/static/media/logo.6bee5dbf.svg"
   },
   {
     "revision": "4acaec57bbaffa8cfd8d087fd1547791",

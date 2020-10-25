@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/beer-coins-challenge/static/css/main.7cf6df80.chunk.css",
-    "main.js": "/beer-coins-challenge/static/js/main.9cf6c121.chunk.js",
-    "main.js.map": "/beer-coins-challenge/static/js/main.9cf6c121.chunk.js.map",
+    "main.css": "/beer-coins-challenge/static/css/main.6bafb512.chunk.css",
+    "main.js": "/beer-coins-challenge/static/js/main.8a46a858.chunk.js",
+    "main.js.map": "/beer-coins-challenge/static/js/main.8a46a858.chunk.js.map",
     "runtime-main.js": "/beer-coins-challenge/static/js/runtime-main.3915087d.js",
     "runtime-main.js.map": "/beer-coins-challenge/static/js/runtime-main.3915087d.js.map",
     "static/css/2.9db35e51.chunk.css": "/beer-coins-challenge/static/css/2.9db35e51.chunk.css",
-    "static/js/2.b9d3bb79.chunk.js": "/beer-coins-challenge/static/js/2.b9d3bb79.chunk.js",
-    "static/js/2.b9d3bb79.chunk.js.map": "/beer-coins-challenge/static/js/2.b9d3bb79.chunk.js.map",
+    "static/js/2.48a739eb.chunk.js": "/beer-coins-challenge/static/js/2.48a739eb.chunk.js",
+    "static/js/2.48a739eb.chunk.js.map": "/beer-coins-challenge/static/js/2.48a739eb.chunk.js.map",
     "index.html": "/beer-coins-challenge/index.html",
-    "precache-manifest.83b0b98eff92b2d865a21ad5f31decce.js": "/beer-coins-challenge/precache-manifest.83b0b98eff92b2d865a21ad5f31decce.js",
+    "precache-manifest.aa98f07bc0ce13c64824cb99e6fe9dc8.js": "/beer-coins-challenge/precache-manifest.aa98f07bc0ce13c64824cb99e6fe9dc8.js",
     "service-worker.js": "/beer-coins-challenge/service-worker.js",
     "static/css/2.9db35e51.chunk.css.map": "/beer-coins-challenge/static/css/2.9db35e51.chunk.css.map",
-    "static/css/main.7cf6df80.chunk.css.map": "/beer-coins-challenge/static/css/main.7cf6df80.chunk.css.map",
-    "static/js/2.b9d3bb79.chunk.js.LICENSE.txt": "/beer-coins-challenge/static/js/2.b9d3bb79.chunk.js.LICENSE.txt",
+    "static/css/main.6bafb512.chunk.css.map": "/beer-coins-challenge/static/css/main.6bafb512.chunk.css.map",
+    "static/js/2.48a739eb.chunk.js.LICENSE.txt": "/beer-coins-challenge/static/js/2.48a739eb.chunk.js.LICENSE.txt",
     "static/media/404.svg": "/beer-coins-challenge/static/media/404.36f0f834.svg",
     "static/media/admin.svg": "/beer-coins-challenge/static/media/admin.e0b4c0ee.svg",
     "static/media/beer-image.jpg": "/beer-coins-challenge/static/media/beer-image.6ba2a92b.jpg",
     "static/media/beer-tech-logo.png": "/beer-coins-challenge/static/media/beer-tech-logo.e20b6b8e.png",
     "static/media/client.svg": "/beer-coins-challenge/static/media/client.1cad8013.svg",
     "static/media/empty.svg": "/beer-coins-challenge/static/media/empty.7a809f5c.svg",
-    "static/media/logo.svg": "/beer-coins-challenge/static/media/logo.b0c2dbc8.svg",
+    "static/media/logo.svg": "/beer-coins-challenge/static/media/logo.6bee5dbf.svg",
     "static/media/operations.svg": "/beer-coins-challenge/static/media/operations.4acaec57.svg",
     "static/media/receipt.svg": "/beer-coins-challenge/static/media/receipt.8c2c7ec7.svg",
     "static/media/rewards.svg": "/beer-coins-challenge/static/media/rewards.19c1477d.svg",
@@ -30,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.3915087d.js",
     "static/css/2.9db35e51.chunk.css",
-    "static/js/2.b9d3bb79.chunk.js",
-    "static/css/main.7cf6df80.chunk.css",
-    "static/js/main.9cf6c121.chunk.js"
+    "static/js/2.48a739eb.chunk.js",
+    "static/css/main.6bafb512.chunk.css",
+    "static/js/main.8a46a858.chunk.js"
   ]
 }

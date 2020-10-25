@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/beer-coins-challenge/precache-manifest.83b0b98eff92b2d865a21ad5f31decce.js"
+  "/beer-coins-challenge/precache-manifest.aa98f07bc0ce13c64824cb99e6fe9dc8.js"
 );
 
 self.addEventListener('message', (event) => {
