@@ -5,6 +5,7 @@ import {
 } from 'react-bootstrap';
 import { IExtrato, IExtratoForm } from '../../interfaces/Extrato';
 import { apiService } from '../../App';
+import FormatDate from '../../services/FormatDate';
 
 interface ReceiptTableProps {
     tableSize?: number;
@@ -15,9 +16,11 @@ const RewardsHistoryTable = ({ tableSize = 10 }: ReceiptTableProps) => {
     const [operations, setOperations] = useState<IExtrato[]>([]);
     const [loading, setLoading] = useState(false);
 
+    const formatDate = new FormatDate();
+
     useEffect(() => {
         setLoading(true);
-        const filters: IExtratoForm = { page: 0, pageSize: tableSize, tipoOperacao: 'DEPOSITO' };
+        const filters: IExtratoForm = { page: 0, pageSize: tableSize, tipoOperacao: 'RESGATE' };
         apiService.extrato(filters).then((operationsData: IExtrato[]) => {
             setOperations(operationsData)
         }).finally(() => setLoading(false))
@@ -29,15 +32,17 @@ const RewardsHistoryTable = ({ tableSize = 10 }: ReceiptTableProps) => {
                 <Table striped bordered hover className='text-align-left'>
                     <thead>
                         <tr>
-                            <th>Valor</th>
                             <th>Data</th>
+                            <th>Produto</th>
+                            <th>Valor</th>
                         </tr>
                     </thead>
                     <tbody>
-                        {operations.map((receipt: IExtrato, index: number) => (
+                        {operations.map((operation: IExtrato, index: number) => (
                             <tr key={index}>
-                                <td>{receipt.dataHora}</td>
-                                <td>B$ {receipt.valor}</td>
+                                <td>{formatDate.format(operation.dataHora)}</td>
+                                <td>B$ {operation.nomeContaOrigemOuDestino}</td>
+                                <td>B$ {operation.valor}</td>
                             </tr>
                         )
                         )}
